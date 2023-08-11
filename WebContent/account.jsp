@@ -144,6 +144,9 @@
                        </svg>
                </div>
           </div>
+           <div class="container-sm d-flex justify-content-center my-4"> 
+          		<b>&copy;copyright 2023</b> - All Rights Reserved.
+          </div>
      </div>
 	
 </body>

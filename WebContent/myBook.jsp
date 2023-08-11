@@ -248,22 +248,10 @@
                        </svg>
                </div>
           </div>
+           <div class="container-sm d-flex justify-content-center my-4"> 
+          		<b>&copy;copyright 2023</b> - All Rights Reserved.
+          </div>
      </div>
 	
 </body>
 </html>
-
-<%-- <div class="col-lg-4 col-md-6 col-sm-12 row m-3 p-3 box-shadow-1 rounded-3">
-				     	 <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center">
-					 	 		<img alt="<%= "http://localhost:8085/Library_Management_System_1.0/resources/Images/Book_Cover/" + bookList.get(s).getBookCover() %>" src="<%= "http://localhost:8085/Library_Management_System_1.0/resources/Images/Book_Cover/"  + bookList.get(s).getBookCover() %>" style="width:100px; user-select: all;"> 
-								<div class="mt-3">
-					    	 		<a href=" <%= "http://localhost:8085/Library_Management_System_1.0/resources/PDF/" + bookList.get(s).getBookPdf() %>" target="_blank" class="btn btn-info"> Read </a> 
-					    	 		<button type="button" class="btn btn-warning mt-3 m-2"> Borrow </button>
-								</div>
-			    	 	 </div>
-			    	 	 <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
-								<p> <%= bookList.get(s).getTitle() %> </p>	
-								<p><%= bookList.get(s).getAuthor() %> </p>	     	
-								<a href=" <%= "http://localhost:8085/Library_Management_System_1.0/resources/PDF/" + bookList.get(s).getBookPdf() %>" target="_blank" class="btn btn-info"> Downolad </a> 		
-				     	 </div>
-     	 	 		</div> --%>

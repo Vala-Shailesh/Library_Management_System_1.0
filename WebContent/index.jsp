@@ -35,7 +35,7 @@
      <link rel="stylesheet" type="text/css" href="./resources/CSS/mediaQuery.css"> 
  
      <!-- script -->
-     <script type="text/javascript" src="./resources/JS/popupForm.js" type="module" defer></script>
+     <script type="text/javascript" src="./resources/JS/popupForm.js" type="module" defer></script> 
      <script type="text/javascript" src="./resources/JS/bookControl.js" type="module" defer></script>
      <script type="text/javascript" src="./resources/JS/notificationBox.js" type="module" defer></script>
 
@@ -46,7 +46,6 @@
 
 	<!-- Registration Acknowledge -->
     <%
-    	// out.println("It working rightly..!");
     	
     	String loginBox = "none";
     	String registerBox = "none"; 
@@ -54,9 +53,6 @@
     	
     	Object loginStatus = request.getAttribute("loginStatus");
     	Object registerStatus = request.getAttribute("registerStatus");
-    	 
-    	// out.println(loginStatus + " " +  registerStatus);
-    	// out.println( loginStatus.getClass().getName() );
     	
      	if( loginStatus != null){
     		loginBox = "block";
@@ -249,10 +245,13 @@
                        </svg>
                </div>
           </div>
+          <div class="container-sm d-flex justify-content-center my-4"> 
+          		<b>&copy;copyright 2023</b> - All Rights Reserved.
+          </div>
      </div>
 
      <!-- login -->
-     <div class="login-box box-shadow-2 display-none" style="display : <%= popupDisplay %> " >
+      <div class="login-box box-shadow-2 display-none" style="display : <%= popupDisplay %>">  
           <div class="close-form-icon">
                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
@@ -285,13 +284,7 @@
   										<path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
 									</svg>
                               </div>
-                         </label>
-                         <%-- <%
-                         	if( session.getAttribute("id").equals(null) ){
-                         		out.println("Invalid Details...!");
-                         	}
-                         %> --%>
-                         
+                         </label>                         
                          <button type="submit" class="btn btn-success btn-center mt-4"> Login </button>
                     </form>
                     <div class="d-flex justify-content-evenly w-75 container mt-4">

@@ -10,13 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	// console.log(form.style.display == "none" );
 
 	if (form.style.display == "block") {
-
 		setTimeout(() => {
 			document.body.style.pointerEvents = "none";
 			document.body.style.opacity = "0.77";
 			form.style.pointerEvents = "all";
 			form.classList.remove("display-none");
-		}, 5000);
+		}, 500);
 	}
 });
 
