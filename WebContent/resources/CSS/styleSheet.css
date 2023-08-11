@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.header{
+	background-color: white;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.w-90 {
+	width: 90vw;
+}
+
+.container-center {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%)
+}
+
+.carousel-caption {
+	position: absolute;
+	left: 50%;
+	top: 75%;
+	transform: translate(-50%, -50%);
+}
+
+.about {
+	padding: 150px;
+}
+
+.mt-10 {
+	margin-top: 5rem;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.box-shadow-1 {
+	box-shadow: 0 0 10px 1px rgba(165, 165, 165, 0.2);
+}
+
+.box-shadow-2 {
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+}
+
+.btn-center {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.btn-end {
+	position: relative;
+	left: 100%;
+	transform: translate(-100%);
+}
+
+input:focus {
+	outline: none;
+}
+
+.contact-bg {
+	background-image: url('../Images/Main/contact_us_bg_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20%;
+	background-clip: border-box;
+	background-attachment: fixed;
+}
+
+.anchor-tag {
+	color: inherit;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.anchor-tag:hover {
+	text-decoration: underline;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.book-pointer {
+	cursor: pointer;
+}
+
+.linkedin:hover {
+	color: rgb(76, 76, 255);
+}
+
+.twitter:hover {
+	color: blue;
+}
+
+.instagram:hover {
+	color: rgb(228, 64, 95);
+}
+ 
+/* dynamic css */
+.display-none {
+	display: none;
+	transition: display 1s ease;
+}
+
+.extra-container {
+	margin-left: 200px;
+}
+
+.register-box {
+	width: 530px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	z-index: 2;
+}
+
+.registerBox-close-icon {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.registerBox-close-icon svg {
+	font-size: 2rem;
+}

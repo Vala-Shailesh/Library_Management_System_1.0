@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.login-box {
+	width: 400px;
+	height: 500px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	user-select: none;
+	z-index: 2;
+}
+
+.login-box h1 {
+	margin: 60px;
+}
+
+.form {
+	max-width: 70%;
+	margin-inline: auto;
+	/* border: 1px solid black; */
+}
+
+.form label {
+	min-width: 100%;
+	margin-inline: auto;
+	position: relative;
+}
+
+.input {
+	min-width: 100%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+.input-icon {
+	position: absolute;
+	top: 45%;
+	right: 2px;
+}
+
+/* close form */
+.close-form-icon {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+.close-form-icon svg {
+	width: 20px;
+	height: 20px;
+	font-weight: 1000;
+	cursor: pointer;
+}
