@@ -97,7 +97,7 @@
 		  </div>
 		  <div class="mb-4">
 			    <label for="bookcover" class="form-label"> Upload Book Cover Images</label>
-			    <input type="file" accept=".jpg" name="bookcover" class="form-control" id="bookcover" required>
+			    <input type="file" name="bookcover" class="form-control" id="bookcover" required>
 		  </div>
 		  <div class="mb-3">
 			    <label for="bookpdf" class="form-label"> Upload Book PDF </label>
@@ -138,7 +138,7 @@
 		  </div>
 		  <div class="mb-4">
 			    <label for="bookcover" class="form-label"> Upload Book Cover Images</label>
-			    <input type="file" accept=".jpg" name="bookcover" class="form-control" id="bookcover" required>
+			    <input type="file" name="bookcover" class="form-control" id="bookcover" required>
 		  </div>
 		  <div class="mb-3">
 			    <label for="bookpdf" class="form-label"> Upload Book PDF </label>
